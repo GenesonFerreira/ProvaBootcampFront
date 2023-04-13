@@ -1,21 +1,17 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-2">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white rounded border border-2 mx-auto">
                 <ul class="navbar-nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="/">
-                            <i class="material-icons">
-                                home
-                            </i>
+                        <a class="nav-link text-dark" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <i class="fas fa-home mr-2"></i>
                             Início
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="/crud">
-                            <i class="material-icons">
-                                storefront
-                            </i>
+                        <a class="nav-link text-dark" routerLink="/crud" routerLinkActive="active">
+                            <i class="fas fa-store mr-2"></i>
                             Clientes
                         </a>
                     </li>
