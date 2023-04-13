@@ -1,27 +1,19 @@
-# Frontend
+Este projeto foi gerado com o Angular CLI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+Servidor de desenvolvimento
+Execute ng serve para iniciar um servidor de desenvolvimento. Navegue para http://localhost:4200/. O aplicativo será recarregado automaticamente se você modificar qualquer um dos arquivos de origem.
 
-## Development server
+Gerando código
+Execute ng generate component component-name para gerar um novo componente. Você também pode usar ng generate directive|pipe|service|class|guard|interface|enum|module.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Compilando
+Execute ng build para compilar o projeto. Os artefatos de compilação serão armazenados no diretório dist/. Use o sinalizador --prod para compilar uma versão de produção.
 
-## Code scaffolding
+Executando testes unitários
+Execute ng test para executar os testes unitários via Karma.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Executando testes end-to-end
+Execute ng e2e para executar os testes end-to-end via Protractor.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Mais ajuda
+Para obter mais ajuda com o Angular CLI, use ng help ou consulte o README do Angular CLI.
